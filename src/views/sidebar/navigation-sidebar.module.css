@@ -1,0 +1,25 @@
+.parent {
+    display: flex;
+}
+
+.sidebar {
+    width: 400px;
+    background-color: blue;
+}
+
+.toggle_button {
+    position: relative;
+    left: 10px;
+    top: 50%;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    &.sidebar_shown {
+        left: 0;
+        transform: translateX(-50%);
+    }
+}
