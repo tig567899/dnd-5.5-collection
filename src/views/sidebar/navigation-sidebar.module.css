@@ -5,6 +5,7 @@
 .sidebar {
     width: 400px;
     background-color: blue;
+    transition: transform 0.1s linear;
 }
 
 .toggle_button {
@@ -17,6 +18,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.1s linear;
 
     &.sidebar_shown {
         left: 0;

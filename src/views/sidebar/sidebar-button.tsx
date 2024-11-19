@@ -20,7 +20,7 @@ export const SidebarButton = ({
             })}
             onClick={onClick}
         >
-            <img src={sidebarShown ? chevronLeft : chevronRight}></img>
+            <img src={sidebarShown ? chevronLeft : chevronRight} alt={sidebarShown ? 'collapse' : 'expand'}></img>
         </button>
     );
 };

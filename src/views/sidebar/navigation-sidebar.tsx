@@ -6,7 +6,7 @@ import { SidebarButton } from '@dnd/sidebar/sidebar-button';
 import styles from '@dnd/sidebar/navigation-sidebar.module.css';
 
 export const NavigationSidebar = () => {
-    const [sidebarHidden, setSidebarHidden] = useState(false);
+    const [sidebarHidden, setSidebarHidden] = useState(true);
 
     const onSidebarToggle = useCallback(() => {
         setSidebarHidden(!sidebarHidden);
